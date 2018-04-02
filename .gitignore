@@ -133,3 +133,4 @@ venv.bak/
 # Custom ignore patterns
 .env.*
 !.env.sample
+coverage
