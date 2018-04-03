@@ -11,11 +11,12 @@ With Telegram Bot, you can integrate some services into your user groups, such a
 This is just a starter, but you can go further by starting from here.
 
 - new bot: [Introduction to the API](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API)
+- dotenv: add your token into a specified envrionment-based file, like `.env.development`, see [sample](.env.sample)
 - custom: add any command and implementation into [tgbot](tgbot.py)
 - run: ```python tgbot.py```
 - example features:
   - `/chatid` will reply current chat id. After got this chat id, you can actively send any messages to specified groups, and do any telegram group-based-access-control strategies.
-  - kick out other bots. Bots are awesome, but some are not, you may have to kick other bots out to keep the group peace.
+  - kick out other bots. Bots are awesome, but some are not, you may have to kick other bots out to keep the group from chaos.
 
 #### Performance
 
